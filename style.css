@@ -1,0 +1,255 @@
+.divofhome
+{
+	height: 74px;
+	width:150%;
+	background-color: #2c3e50;
+}
+nav ul
+{
+	padding: 0;
+	margin:0;
+	float:left;
+}
+body
+{
+	background: #a9a9a9;
+	overflow:hidden;
+}
+nav ul li
+{
+	background:#2c3e50;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a:hover
+{
+	background: #243342;
+}
+nav ul li a
+{
+	display: block;
+	padding: 0 20px;
+	color: white;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 20px;
+}
+nav ul ul
+{
+	position: absolute;
+	top:60px;
+	display: none;
+}
+nav ul li:hover > ul
+{
+	display: block;
+	z-index: 5;
+}
+nav ul li ul li
+{
+	width:215px;
+	height:50px;
+	font-size: 15px;
+	padding:-20px;
+	float: none;
+	display: list-item;
+}
+nav ul li ul li ul
+{
+	position:absolute;
+	top:0px;
+	left:215px;
+}
+.sname
+{
+	position: relative;
+	top:22px; 
+	left:10px;
+	font-size: 20px;
+	height:20px;
+	width:300px;
+	background-color:  #FAF0E6;
+}
+.l
+{
+	position: relative;
+	font-size: 25px;
+	top:25px; 
+}
+.salestable
+{
+
+	width:150%;
+	overflow-y: scroll;
+	box-shadow: 0 10px 100px 25px black;
+	background-color:#a9a9a9;
+}
+.table tr th
+{
+	border:0.3px solid #c0c0c0;
+	color:#d3d3d3;
+	background-color:#2c3e50;
+}
+.l1
+{
+	position: relative;
+	font-size: 25px;
+	top:25px; 
+	left:30px;
+}
+.sdate
+{
+	position: relative;
+	top:22px; 
+	left:35px;
+	height: 20px;
+	width:110px;
+	background-color:  #FAF0E6;
+	font-size:20px;
+}
+.l2
+{
+	position: relative;
+	font-size: 25px;
+	top:25px; 
+	left:90px;
+}
+.sbill
+{
+	position: relative;
+	top:22px; 
+	left:91px;
+	height: 20px;
+	font-size: 20px;
+	width:100px;
+	background-color:  #FAF0E6;
+	z-index: 0;
+
+}
+.l3
+{
+	position: relative;
+	font-size: 25px;
+	top:28px;
+}
+.nar
+{
+	position: relative;
+	font-size: 20px;
+	top:37px;
+	overflow-y:scroll;
+	height:25px;
+	left:5px;
+	background-color:  #FAF0E6;
+}
+
+.salestable
+{
+			height:320px;
+		
+}
+
+.table,tr,th,td
+{
+	font-size:24.4px;
+	padding-left:94px;
+	padding-right:94px; 
+	text-align: center;
+	border-collapse: collapse;
+}
+
+
+
+th
+{
+	position: sticky;
+	top:0;
+}
+
+.salebrowse .salep
+{
+	font-size: 20px;
+	padding-left:50px;
+	padding-right:50px;
+	box-shadow: 10px 25px 50px 10px black;
+
+}
+.w5
+{
+	position: relative;
+	font-size:30px;
+	top:-70px;
+	left:1100px;
+	color:red;
+	background-color:#FAF0E6;
+}
+.arrange
+{
+    position:relative;
+    top:47px;
+    width:180%;
+}
+.w,.w1,.w2,.w3,.w4,.w6
+{
+    font-size:20px;
+    background-color:  #FAF0E6;
+}
+.w4,.w6
+{
+    padding-right:44px;
+     padding-left:44px;
+}
+#salepre,#salenext,#saletop,#salebut,#saledel,#saleedit,#salebot
+{
+	visibility:hidden;
+}
+.salebrowse
+{
+	position: relative;
+	padding-left:394px;
+}
+.salepre
+{
+		position: relative;
+		top:30px;
+		font-size: 20px; 
+		width: 150px;
+		left:85px;
+		box-shadow: 10px 25px 50px 10px black;
+		z-index: 5;
+}
+.salebrowsebut
+{
+	position: relative;
+	z-index: 1;
+	top:5px;
+	left: 15px;
+	font-size: 15px;
+	box-shadow: 10px 25px 50px black;
+}
+.salenex
+{
+		position: relative;
+		top:30px;
+		font-size: 20px; 
+		width: 150px;
+		left:85px;
+		box-shadow: 10px 25px 50px 10px black;
+		z-index: 5;
+
+}
+.help
+{
+	visibility:hidden;
+}
+.saledel
+{
+			position: relative;
+			top:28.5px;
+		    left:548px;
+			font-size: 20px; 
+			width: 150px;
+			box-shadow: 10px 25px 50px 10px black;
+			z-index: 5;
+}
